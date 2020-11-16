@@ -713,7 +713,7 @@ function Get-DomainUser {
 }
 
 
-function Invoke-Kerberoast {
+function Invoke-Kroast {
 
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
     [OutputType('PowerView.SPNTicket')]
